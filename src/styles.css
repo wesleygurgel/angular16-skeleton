@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #F2F4F5;}
+.hover-bg-light:hover {
+    background-color: #f8f9fa; /* Cor correspondente ao bg-light no Bootstrap */
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

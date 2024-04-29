@@ -1,0 +1,22 @@
+.todo-element {
+    border-left: 3px solid #b6d4fe; /* Cor azul clara, ajuste conforme necessário */
+    padding-left: 1.5rem; /* equivalente ao pl-4 em Tailwind */
+    margin-left: 1rem;
+}
+
+.bg-gray-100 { background-color: #f7fafc; }
+.border-gray-500 { border-color: #718096; }
+.text-gray-600 { color: #4a5568; }
+
+.bg-blue-100 { background-color: #ebf8ff; }
+.border-blue-500 { border-color: #4299e1; }
+.text-blue-600 { color: #3182ce; }
+
+.bg-red-100 { background-color: #fff5f5; }
+.border-red-500 { border-color: #f56565; }
+.text-red-600 { color: #e53e3e; }
+
+.bg-green-100 { background-color: #f0fff4; }
+.border-green-500 { border-color: #48bb78; }
+.text-green-600 { color: #38a169; }
+

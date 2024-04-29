@@ -1,0 +1,13 @@
+<div *ngIf="isOpen" class="position-fixed top-0 end-0 bg-opacity-50 bg-dark vw-100 vh-100" style="z-index: 1050;" (click)="onClosePanel()">
+  <div class="position-absolute top-0 end-0 bg-white shadow h-100" style="width: 420px;" [@fadeSlideInRight] (click)="$event.stopPropagation()">
+    <div class="d-flex justify-content-between align-items-center border-bottom p-3">
+      <h4 class="mb-0 fw-bold">{{ headerText }}</h4>
+      <button mat-icon-button (click)="onClosePanel()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+    <div class="p-3">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>
